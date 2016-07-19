@@ -1,0 +1,227 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+p {
+	color: #fff;
+	font-size: 16px;
+}
+h1, h2 {
+	text-transform: uppercase;
+}
+a {
+	text-decoration: none;
+}
+
+
+
+
+
+							/* HEADER*/
+
+header {
+	background-image: url(../_image/bg_header.png);
+	background-attachment: fixed;
+	height: 670px;
+}
+#logo {
+	margin-left: 5%;
+	height: 75px;
+	width: 66px;
+}
+
+#logo_name {
+	color: #13e1da;
+	font-size: 3em;
+	position: relative;
+	left: 60px;
+	top: -67px;
+}
+.header_content {
+	display: flex;
+}
+.header_content h1	{
+	text-transform: capitalize;
+	color: #fff;
+	margin-top: 220px;
+	position: absolute;
+	margin-left: 14%;
+}
+.header_content p {
+	position: absolute;
+	margin-top: 300px;
+	width: 72%;
+	text-align: center;
+}
+.button {
+	margin-top: 440px;
+	position: absolute;
+	margin-left: 410px;
+	color: #00e0d0;
+	background-color: inherit;
+	padding: 15px;
+	border-color: #00e0d0;
+}
+.header_nav {
+	text-transform: uppercase;
+	color: #fff;
+	display: flex;
+	justify-content: flex-end;
+}
+.header_nav ul {
+	margin-top: 25px;
+}
+.header_nav li {
+	text-decoration: none;
+	display: inline;
+}
+.header_nav a {
+	color: #fff;
+	margin-right: 10px;
+}
+.header_nav a:hover{
+	color: #00e0d0;
+	text-decoration: none;	
+}
+
+								/* OUR STORY SECTION*/
+
+.our_story {
+	height: 400px;
+	display: flex;
+}
+.story{
+	width: 80%;
+	margin-left: 100px;
+}
+.story_img{
+	margin-left: 16%;
+	margin-top: 70px;
+	float: left;
+}
+.story_h2 {
+	text-transform: uppercase;
+	color: #413d4b;
+	padding-top: 72px;
+}
+.story p {
+	color: black;
+}
+.button_s	{
+	margin-top: 20px;
+	position: absolute;
+	color: #00e0d0;
+	background-color: inherit;
+	padding: 15px;
+	border-color: #00e0d0;
+	font-weight: 600;
+}
+
+
+							/* Video Section */
+
+.video_section {
+	height: 600px;
+	width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+							/* Expertise section */
+
+
+.exp_section {
+	height: 755px;
+	width: 100%
+}
+.exp_section h2 {
+	text-align: center;
+	margin-top: 70px;
+}
+.exp_section p {
+	color: black;
+	text-align: center;
+}
+.exp_section li {
+	width: 300px;
+	height: 200px;
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+	margin-top: 80px;
+}
+.exp_section img{
+	margin-left:  120px;
+	vertical-align: middle;
+}
+.exp_section h4 {
+	margin-top: 35px;
+	text-align: center;
+	font-weight: 600;
+}
+.exp_section p {
+	text-align: center;
+	margin-top: 25px;
+}
+
+
+							/* Our Team section*/
+
+.bg_section {
+	height: 710px;
+	background-image: url(../_image/bg_header.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							/* Our Works section */
+
+
+.our_works {
+	height: 738px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1600px) {
+  .container {
+    width: 1570px;
+  }
