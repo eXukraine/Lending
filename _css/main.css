@@ -54,13 +54,18 @@ header {
 	text-align: center;
 }
 .button {
-	margin-top: 440px;
-	position: absolute;
-	margin-left: 410px;
+	
+	
 	color: #00e0d0;
 	background-color: inherit;
-	padding: 15px;
+	padding: 10px;
 	border-color: #00e0d0;
+	text-transform: uppercase;
+}
+.btn_pos {
+	margin-top: 440px;
+	position: absolute;
+	margin-left: 41%;
 }
 .header_nav {
 	text-transform: uppercase;
@@ -115,6 +120,7 @@ header {
 	padding: 15px;
 	border-color: #00e0d0;
 	font-weight: 600;
+	text-transform: uppercase;
 }
 
 
@@ -194,7 +200,7 @@ header {
 }
 .our_team li {
 	height: 230px;
-	width: 220px;
+	width: 272px;
 	margin-left: 20px;
 	background-color: #fff;
 	display: inline-block;
@@ -203,45 +209,99 @@ header {
 	margin-left: 10px;
 }
 .our_team ul {
-	margin-left: 8%;
+	#margin-left: 8%;
 	margin-top: 46px;
+	margin-bottom: 0px;
+}
+.team_name {
+	margin-top: -5px;
+}
+.team_name ul {
+	margin-top: 0px;
+
+}
+.team_name li{
+	width: 272px;
+	height: 70px;
+	background: inherit;
+	padding: 0px;
+	border-bottom: solid 1px #5a5776;
+	border-right:  solid 1px #5a5776;
+	border-left:  solid 1px #5a5776;
+	padding-top: 10px;
+}
+.team_name h4 {
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	margin-top: 0px;
+	margin-bottom: 7px;
+	text-transform: uppercase;
+}
+.team_name p {
+	color: #6D6A89;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+#team_p	{
+	margin-top: 70px;
+}
+.btn_pos_team {
+	margin-left: 44%;
+	margin-top: 25px;
 }
 
 
-			
+							/* Our Works Section*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-							/* Our Works section */
-
+.work_top {
+	margin-top: -80px;
+}
+.work_left {
+	float: left;
+	color: #000;
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.work_right {
+	float: right;
+	color: #000;
+}
 
 .our_works {
 	height: 738px;
 }
+.bottom_img {
+	background-image: url(../_image/bottom_qube.png);
+	height: 400px;
+	margin-top: 156px;
+}
+.btn_pos_works {
+	margin-left: 42%;
+	margin-top: 550px;
+	position: absolute;
+}
 
 
+							/*Testimonial Section*/
 
+.bg_img {
+	height: 500px;
+	background-image: url(../_image/bg_header.png);
+	margin-top: 182px;
+}
 
-
-
+.quote {
+	font-size: 140px;
+	margin-left: 49%;
+}
+.test_p {
+	text-align: center;
+	width: 780px;
+	margin-left: 17%;
+}
 
 
 
