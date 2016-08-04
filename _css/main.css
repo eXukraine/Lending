@@ -326,6 +326,10 @@ slider ul li img {
 	border-radius: 50%;
 	height: 50px;
 	width: 50px;
+	display: inline-block;
+}
+.carousel  {
+	margin-top: 100px;
 }
 .active {
 	height: 75px;
