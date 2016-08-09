@@ -322,19 +322,30 @@ slider ul li img {
 	height: 50px;
 	width: 50px;
 }
-.img_pos {
+.itme {
 	border-radius: 50%;
 	height: 50px;
 	width: 50px;
 	display: inline-block;
 }
+.slider img {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	} 
+
 .carousel  {
 	margin-top: 100px;
 }
 .active {
 	height: 75px;
 	width: 75px;
+	border-radius: 50%;
 
+}
+.slider img {
+	height: 50px;
+	width: 50px;
 }
 slider li img:hover {
 	height: 75px;
@@ -348,7 +359,12 @@ slider li img:hover {
 
 }
 
-
+.p_demo1 {
+	color: red;
+}
+.p_demo2 {
+	color: yellow;
+}
 
 
 

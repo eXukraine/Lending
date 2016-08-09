@@ -5,11 +5,16 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="_css/main.css">
 	<link rel="stylesheet" type="text/css" href="media/media.css">
-	<script type="text/javascript" src = "_js/slider.js"></script>
+	<!--<script type="text/javascript" src = "_js/slider.js"></script>-->
 	<script type="text/javascript" src = "_js/main.js"></script>
 	<!-- jQuery CDN connect -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
 	<!--<script type="text/javascript" scr ="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>-->	
+
+	<script
+			  src="https://code.jquery.com/jquery-2.2.4.js"
+			  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+			  crossorigin="anonymous"></script>
 
 
 	<!-- Latest compiled and minified CSS -->
@@ -33,7 +38,34 @@
 
 	<!-- HEADER SECTION -->
 
+
 	<header>
+	<script type="text/javascript">
+$('document').ready(function(){
+
+
+ var elements = $(".itme");
+  console.log(elements)
+
+     next = function(){
+
+      var active = elements.filter('.active').removeClass("active");
+      	var nextElement = active.next().length?active.next():elements.eq(0);
+        nextElement.addClass("active");
+
+
+
+
+    };
+         prev = function(){
+          var active = elements.filter('.active').removeClass('active');
+            var prevElement = active.prev().length?active.prev():elements.eq(-1);
+            prevElement.addClass("active");
+         
+
+    };
+});
+</script>
 		<div class="container">
 			<div class="row">
 				<div id="logo" class="col-md-1" >
@@ -215,23 +247,22 @@
 
 							<div>
 								<ul  class="slider">
-									<li><img class="img_pos active" src="_image/donald.png"></li>
-									<li><img class="img_pos" src="_image/mickey.png"></li>
-									<li><img class="img_pos" src="_image/donald.png"></li>
-									<li><img class="img_pos" src="_image/donald.png"></li>
-									<li><img class="img_pos" src="_image/donald.png"></li>
+									<li class="itme "><img class="active"  src="_image/donald.png"></li>
+									<li class="itme"><img  src="_image/mickey.png"></li>
+									<li class="itme"><img  src="_image/donald.png"></li>
+									<li class="itme"><img  src="_image/donald.png"></li>
+									<li class="itme"><img  src="_image/donald.png"></li>
 								</ul>
-									<button class="next" id="next">Next</button>
-									<button class="prev" id="prev">Prev</button>
-							</div>
-
-									<p id="demo"></p>
-								
+									<button class="next" id="next" onclick="next()">Next</button>
+									<button class="prev" id="prev" onclick="prev()">Prev</button>
+												
+							</div>	
 				</div>
 			</div>
 		</div>
 		
 	</section>
+
 
 </body>
 </html>
