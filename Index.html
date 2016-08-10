@@ -45,14 +45,14 @@ $('document').ready(function(){
 
 
  var elements = $(".itme");
-  console.log(elements)
+  console.log(elements.length)
 
      next = function(){
 
-      var active = elements.filter('.active').removeClass("active");
+      var active = elements.filter('.active').removeClass("active ");
       	var nextElement = active.next().length?active.next():elements.eq(0);
-        nextElement.addClass("active");
-
+        nextElement.addClass("active ");
+        console.log(active)
 
 
 
@@ -61,7 +61,7 @@ $('document').ready(function(){
           var active = elements.filter('.active').removeClass('active');
             var prevElement = active.prev().length?active.prev():elements.eq(-1);
             prevElement.addClass("active");
-         
+         	console.log(active)
 
     };
 });
@@ -247,14 +247,14 @@ $('document').ready(function(){
 
 							<div>
 								<ul  class="slider">
-									<li class="itme "><img class="active"  src="_image/donald.png"></li>
-									<li class="itme"><img  src="_image/mickey.png"></li>
-									<li class="itme"><img  src="_image/donald.png"></li>
-									<li class="itme"><img  src="_image/donald.png"></li>
-									<li class="itme"><img  src="_image/donald.png"></li>
+									<li  class=" itme"><img src="_image/donald.png"></li>
+									<li  class="itme" ><img  src="_image/mickey.png"></li>
+									<li   class="itme active"><img  src="_image/donald.png"></li>
+									<li  class="itme"><img  src="_image/donald.png"></li>
+									<li  class="itme "><img  src="_image/donald.png"></li>
 								</ul>
-									<button class="next" id="next" onclick="next()">Next</button>
-									<button class="prev" id="prev" onclick="prev()">Prev</button>
+									<button class="next " id="next" onclick="next()">Next</button>
+									<button class="prev glyphicon glyphicon-menu-left" id="prev" onclick="prev()"></button>
 												
 							</div>	
 				</div>

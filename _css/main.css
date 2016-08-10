@@ -288,9 +288,9 @@ header {
 							/*Testimonial Section*/
 
 .bg_img {
-	height: 500px;
+	height: 672px;
 	background-image: url(../_image/bg_header.png);
-	margin-top: 182px;
+	margin-top: 180px;
 }
 
 .quote {
@@ -308,50 +308,40 @@ header {
 
 
 .slider {
-	margin-left: 35%;
+	margin-left: 31%;
+	padding-top: 110px;
 }
 .slider li {
 	list-style: none;
 	display: inline-block;
-	margin: 0px 10px;
+	margin: 0px 20px;
 	margin-top: 100px;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
 
 }
-slider ul li img {
+
+
+.itme img {
 	border-radius: 50%;
-	height: 50px;
-	width: 50px;
-}
-.itme {
-	border-radius: 50%;
-	height: 50px;
-	width: 50px;
+	height: 60px;
+	width: 60px;
 	display: inline-block;
 }
-.slider img {
-	height: 50px;
-	width: 50px;
-	border-radius: 50%;
-	} 
 
 .carousel  {
 	margin-top: 100px;
 }
-.active {
+.active img{
 	height: 75px;
 	width: 75px;
 	border-radius: 50%;
+	margin-right: 5px;
+}
 
-}
-.slider img {
-	height: 50px;
-	width: 50px;
-}
-slider li img:hover {
-	height: 75px;
-	width: 75px;
-	margin-top: -25px;
-}
+
+
 .next {
 	position: relative;
 	top: -70px;
