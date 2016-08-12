@@ -258,6 +258,9 @@ header {
 .work_top {
 	margin-top: -80px;
 }
+.work_top a {
+	color: #000;
+}
 .work_left {
 	float: left;
 	color: #000;
@@ -344,16 +347,83 @@ header {
 
 .next {
 	position: relative;
-	top: -70px;
-	left: -30px;
+	float: right;
+	background: inherit;
+	border: none;
+	margin-right: 305px;
 
 }
 
-.p_demo1 {
-	color: red;
+.buttons{
+	position: relative;
+	top: -45px;
 }
-.p_demo2 {
-	color: yellow;
+.prev {
+	background: inherit;
+	border: none;
+	margin-left: 330px;
+}
+.buttons span{
+	color: #000;
+	font-size: 35px;
+}
+
+
+
+													/*News Section*/
+
+
+.news {
+	height: 653px;
+}
+#news_h3 {
+	margin-top: 70px;
+	margin-left: 16px;
+	font-weight: 600;
+	margin-bottom: 0px;
+
+}
+#news_form{
+	margin-top: 55px;
+}
+#name {
+	width: 460px;
+	margin-top: 25px;
+	height: 45px;
+}
+#email {
+	margin-top: 25px;
+	width: 460px;
+	height: 45px;
+}
+#sub {
+	width: 460px;
+	margin-top: 25px;
+	height: 45px;
+}
+#msg {
+	height: 200px;
+	width: 460px;
+	margin-top: 25px;
+}
+#submit {
+	margin-top: 25px;
+}
+
+
+.news_clients {
+
+}
+
+																/*Sprites*/
+
+.zara {
+	background: url(../_image/sprite.png);
+}
+#zara {
+		width: 160px;
+	height: 21px;
+	background-position: 0px 0px;
 }
 
 
@@ -375,6 +445,12 @@ header {
 
 
 
+
+
+footer {
+	height: 400px;
+	background-image: url(../_image/footer_bg.png);
+}
 
 @media (min-width: 1600px) {
   .container {

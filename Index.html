@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="_css/main.css">
 	<link rel="stylesheet" type="text/css" href="media/media.css">
-	<!--<script type="text/javascript" src = "_js/slider.js"></script>-->
+	
 	<script type="text/javascript" src = "_js/main.js"></script>
 	<!-- jQuery CDN connect -->
 	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
@@ -30,7 +30,7 @@
 	<!-- jQuery CDN connect -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script type="text/javascript" scr ="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-
+	<script type="text/javascript" src = "_js/slider.js"></script>
 
 
 </head>
@@ -40,32 +40,7 @@
 
 
 	<header>
-	<script type="text/javascript">
-$('document').ready(function(){
 
-
- var elements = $(".itme");
-  console.log(elements.length)
-
-     next = function(){
-
-      var active = elements.filter('.active').removeClass("active ");
-      	var nextElement = active.next().length?active.next():elements.eq(0);
-        nextElement.addClass("active ");
-        console.log(active)
-
-
-
-    };
-         prev = function(){
-          var active = elements.filter('.active').removeClass('active');
-            var prevElement = active.prev().length?active.prev():elements.eq(-1);
-            prevElement.addClass("active");
-         	console.log(active)
-
-    };
-});
-</script>
 		<div class="container">
 			<div class="row">
 				<div id="logo" class="col-md-1" >
@@ -226,7 +201,7 @@ $('document').ready(function(){
 					<div class="our_works" id="our_works">
 						<div class="work_top">
 							<p class="work_left"> Our works</p>
-							<p class="work_right">See All project in dribbble ></p>
+							<p class="work_right"><a href="">See All project in dribbble ></a></p>
 						</div>
 						<div class="btn_pos_works">
 							<button class="button">load more</button>
@@ -253,15 +228,47 @@ $('document').ready(function(){
 									<li  class="itme"><img  src="_image/donald.png"></li>
 									<li  class="itme "><img  src="_image/donald.png"></li>
 								</ul>
-									<button class="next " id="next" onclick="next()">Next</button>
-									<button class="prev glyphicon glyphicon-menu-left" id="prev" onclick="prev()"></button>
-												
+									<div class="buttons">
+										<button class="prev " aria-hidden = "true"  id="next" onclick="prev()"><span class="glyphicon glyphicon-menu-left"></span></button>
+										<button class="next " id="prev" onclick="next()"><span class="glyphicon glyphicon-menu-right"></span></button>
+									</div>			
 							</div>	
 				</div>
 			</div>
 		</div>
 		
 	</section>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="news ">
+					<div class="news_msg col-md-6">
+						<h3 id="news_h3">Give us a good news</h3>
+							<form id="news_form" class="col-md-6">
+								<input type="name" name="name" placeholder="Name" required="" id="name" class="col-md-6"><br>
+								<input type="email" name="email" placeholder="E-mail" id="email" required="" class="col-md-6"><br>
+								<input type="subject" name="subject" placeholder="Subject" id="sub" class="col-md-6">
+								<!--<input type="massage" name="massage" placeholder="Your Massage" id="msg" class="col-md-6">-->
+								<textarea id="msg" placeholder="Your Massage"></textarea>
+								<input type="submit" name="submit" id="submit">						
+							</form>
+					</div>
+					<div class="news_clients col-md-5">
+						<h3>Our happy clients</h3>
+							<span id="zara" class="zara"></span>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				f
+			</div>
+		</div>
+	</footer>
 
 
 </body>
