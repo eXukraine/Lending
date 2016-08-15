@@ -12,8 +12,12 @@ h1, h2, h3 {
 a {
 	text-decoration: none;
 }
-
-
+.float_r {
+	float: right;
+}
+.clear {
+	clear: both;
+}
 
 
 
@@ -387,23 +391,23 @@ header {
 	margin-top: 55px;
 }
 #name {
-	width: 460px;
+	width: 585px;
 	margin-top: 25px;
 	height: 45px;
 }
 #email {
 	margin-top: 25px;
-	width: 460px;
+	width: 585px;
 	height: 45px;
 }
 #sub {
-	width: 460px;
+	width: 585px;
 	margin-top: 25px;
 	height: 45px;
 }
 #msg {
 	height: 200px;
-	width: 460px;
+	width: 585px;
 	margin-top: 25px;
 }
 #submit {
@@ -412,34 +416,81 @@ header {
 
 
 .news_clients {
-
+	max-height: 653px;
 }
+
 
 																/*Sprites*/
 
-.zara {
+zara {
 	background: url(../_image/sprite.png);
 }
-#zara {
+zara {
 		width: 160px;
 	height: 21px;
 	background-position: 0px 0px;
 }
+.news_clients li {
+	margin-top: 48px;
+	list-style: none;
+}
+.left-ul {
+	float: right;
+}
 
 
+													
+#zara { 
+	background: url('../_image/sprite.png') 0 0 no-repeat;
+	height: 22px;
+	width: 162px; 
+}
+#barneys {
+	background: url('../_image/sprite.png') 0 -32px no-repeat;
+	width: 154px;
+	height: 41px;
+ } 
+#ck {
+	background: url('../_image/sprite.png') 0 -83px no-repeat;
+	width: 151px; 
+	height: 24px;
+}
+#convers {
+	background: url('../_image/sprite.png') 0 -117px no-repeat;
+	width: 113px;
+	height: 69px;
+}
+#levis {
+	background: url('../_image/sprite.png') 0 -196px no-repeat;
+	width: 109px; 
+	height: 53px;
+}
+#mango {
+	background: url('../_image/sprite.png')  0 -259px no-repeat;
+	width: 138px;
+	height: 22px;
+}
+#gucci {
+	background: url('../_image/sprite.png') 0 -291px no-repeat;
+	width: 140px; 
+	height: 21px;
+}
+#nike {
+	background: url('../_image/sprite.png') 0 -322px no-repeat;
+	width: 95px; 
+	height: 34px;
+}
+#puma {
+	background: url('../_image/sprite.png') 0 -366px no-repeat;
+	width: 114px; 
+	height: 56px;
+}
+#bb {
+	background: url('../_image/sprite.png') 0 -432px no-repeat;
+	width: 130px; 
+	height: 70px;
 
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
