@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="_css/main.css">
 	<link rel="stylesheet" type="text/css" href="media/media.css">
 	<link rel="stylesheet" type="text/css" href="_css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 	<script type="text/javascript" src = "_js/main.js"></script>
 	<!-- jQuery CDN connect -->
 	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
@@ -250,7 +251,7 @@
 								<input type="subject" name="subject" placeholder="Subject" id="sub" class="col-md-6">
 								<!--<input type="massage" name="massage" placeholder="Your Massage" id="msg" class="col-md-6">-->
 								<textarea id="msg" placeholder="Your Massage"></textarea>
-								<input type="submit" name="submit" id="submit">						
+								<button class="submit" name="form_submit" type="submit">SUBMIT</button>						
 							</form>
 					</div>
 					<div class="col-md-1" ></div>
@@ -286,9 +287,16 @@
 			<div class="row">
 				<div id="logo_footer"  >
 					<img  src="_image/logo.png" alt="Company logotype">	
-						<p id="logo_name">tajam</p>
+						<p id="logo_name_footer">tajam</p>
 				</div>
-					<div class="footer_left-p col-md-4"><p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p></div>
+					<div class="footer_left-p col-md-4">
+						<p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec  sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
+						 <ul class="footer_left_ul">
+						 	<li><a href="">HELP</a></li>
+						 	<li><a href="">TERMS&CONDITION</a></li>
+						 	<li><a href="">PRIVACY</a></li>
+						 </ul>
+					</div>
 						<div class="footer_mid col-md-4">
 							<div class="footer_h4"><h4>OUR STUDIO</h4></div>
 								<address id="address" >Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13,
@@ -299,8 +307,24 @@
 								<h4>STAY IN TOUCH</h4>
 									<form id="newsletter_form">
 										<input type="text" name="newsletter" placeholder="Subscribe our newsletter">
-										<input type="submit" name="submit">
+										<button name="btn_newsletter" type="submit"><img src="_image/paper.png" ></button>
 									</form>
+										<ul class="social">
+											<li id="facebook"><i class="fa fa-facebook" aria-hidden="true"></i>
+</li>
+											<li id="twitter"><i class="fa fa-twitter" aria-hidden="true"></i>
+</li>
+											<li id="dribble"><i class="fa fa-dribbble" aria-hidden="true"></i>
+</li>
+											<li id="instagramm"><i class="fa fa-instagram" aria-hidden="true"></i>
+</li>
+											<li id="google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i>
+</li>
+											<li id="youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i>
+</li>
+										</ul>
+											<p>Copyright <i class="fa fa-copyright" aria-hidden="true"> </i> 2015 Tajem - Creative
+</p>
 							</div>
 			</div>
 		</div>

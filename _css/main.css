@@ -427,8 +427,17 @@ header {
 	width: 585px;
 	margin-top: 25px;
 }
-#submit {
-	margin-top: 25px;
+.submit {
+	
+	color: #00e0d0;
+	background-color: inherit;
+	padding: 10px;
+	border: none;
+	border: solid 1px #00e0d0;
+	text-transform: uppercase;
+	width: 120px;
+	height: 40px;
+	margin-top: 10px;
 }
 
 
@@ -533,8 +542,16 @@ footer {
 #logo_footer img {
 	height: 50px;
 	width: 50px;
-
 }
+#logo_name_footer {
+	color: #13e1da;
+	font-size: 30px;
+	position: relative;
+	font-family: "RobotoLigth";
+	left: 50px;
+	top: -67px;
+	margin-top: 15px;
+	}
 .footer_h4 {
 	position: relative;
 	top: -70px;
@@ -560,10 +577,47 @@ footer {
 	height: 45px;
 	width: 210px;
 	background: inherit;
-	border-color: #9f98b1;
+	border: none;
+	border: solid 1px #9f98b1;
 }
 #newsletter_form [placeholder] {
 	color: #a7a2b7;
 }
-  								
+#newsletter_form button {
+	background: inherit;
+	border: none;
+}
+.social li {
+	list-style: none;
+	color: #fff;
+	height: 35px;
+	width: 35px;
+	border: solid 1px #e7e5ec;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+}
+.social i {
+	margin-top: 10px;
+}
+.social {
+	margin-top: 27px;
+}
+.footer_left_ul {
+	margin-top: 80px;
+}
+.footer_left_ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 33px;
+	font-family: "RobotoRegular"
+}						
+.footer_left_ul a {
+	text-transform: none;
+	color: #fff;
+}			
+.footer_rigth p {
+	margin-top: 19px;
+	font-family: "RobotoRegular";
+}		
 
